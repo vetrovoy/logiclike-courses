@@ -1,0 +1,22 @@
+.button {
+  border-radius: 12px;
+  padding: 12px;
+  list-style: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  color: var(--color-primary);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+
+  &:hover,
+  &.active {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+  }
+}
