@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8e7af3f7.css",
+    "main.js": "./static/js/main.acbcfedf.js",
+    "static/media/nunito-latin-ext-800-normal.woff": "./static/media/nunito-latin-ext-800-normal.1db163fb750cc2b59f75.woff",
+    "static/media/nunito-latin-ext-400-normal.woff": "./static/media/nunito-latin-ext-400-normal.71b591df087b973d02ed.woff",
+    "static/media/nunito-latin-800-normal.woff": "./static/media/nunito-latin-800-normal.3e9326e35798056af500.woff",
+    "static/media/nunito-latin-400-normal.woff": "./static/media/nunito-latin-400-normal.993d6c50aeb5ceefdfc6.woff",
+    "static/media/nunito-latin-800-normal.woff2": "./static/media/nunito-latin-800-normal.6e265e4c9609221bbcfc.woff2",
+    "static/media/nunito-latin-400-normal.woff2": "./static/media/nunito-latin-400-normal.9f3f4583bd7c435a198c.woff2",
+    "static/media/nunito-latin-ext-800-normal.woff2": "./static/media/nunito-latin-ext-800-normal.0bc265887895c5c4c248.woff2",
+    "static/media/nunito-latin-ext-400-normal.woff2": "./static/media/nunito-latin-ext-400-normal.ca34ca0f04c144c14d57.woff2",
+    "static/media/nunito-cyrillic-ext-400-normal.woff": "./static/media/nunito-cyrillic-ext-400-normal.bbc8ddfbf7a68744ec73.woff",
+    "static/media/nunito-cyrillic-ext-800-normal.woff": "./static/media/nunito-cyrillic-ext-800-normal.6bc6fdc4809244850365.woff",
+    "static/media/nunito-cyrillic-ext-800-normal.woff2": "./static/media/nunito-cyrillic-ext-800-normal.7d93fb7a4c15994e567f.woff2",
+    "static/media/nunito-cyrillic-ext-400-normal.woff2": "./static/media/nunito-cyrillic-ext-400-normal.c74946f28a2a3bf21fa5.woff2",
+    "static/media/nunito-cyrillic-400-normal.woff": "./static/media/nunito-cyrillic-400-normal.953b7e54b868ff59dd91.woff",
+    "static/media/nunito-cyrillic-800-normal.woff": "./static/media/nunito-cyrillic-800-normal.ac0f8c78ad51491581d4.woff",
+    "static/media/nunito-vietnamese-800-normal.woff": "./static/media/nunito-vietnamese-800-normal.3b00ceb7ec6bf6e723fc.woff",
+    "static/media/nunito-vietnamese-400-normal.woff": "./static/media/nunito-vietnamese-400-normal.1221888234e9ce4d67a2.woff",
+    "static/media/nunito-cyrillic-800-normal.woff2": "./static/media/nunito-cyrillic-800-normal.ef7de7c30a0e99dbc9e2.woff2",
+    "static/media/nunito-cyrillic-400-normal.woff2": "./static/media/nunito-cyrillic-400-normal.d849bc0e78e41c04b19a.woff2",
+    "static/media/nunito-vietnamese-800-normal.woff2": "./static/media/nunito-vietnamese-800-normal.3fcb6d0cf68f01261883.woff2",
+    "static/media/nunito-vietnamese-400-normal.woff2": "./static/media/nunito-vietnamese-400-normal.a83bae0c745757608a84.woff2",
+    "index.html": "./index.html",
+    "main.8e7af3f7.css.map": "./static/css/main.8e7af3f7.css.map",
+    "main.acbcfedf.js.map": "./static/js/main.acbcfedf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e7af3f7.css",
+    "static/js/main.acbcfedf.js"
+  ]
+}
