@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, memo } from "react";
 
 import { TCourse } from "../../../types/coursesTypes";
 import { CoursesCard } from "../../CoursesCard/CoursesCard";
@@ -9,7 +9,7 @@ type TCoursesList = {
   courses: TCourse[];
 };
 
-export const CoursesList: FC<TCoursesList> = ({ courses }) => {
+export const CoursesList: FC<TCoursesList> = memo(({ courses }) => {
   return (
     <div className={classes.list}>
       {courses.map((course) => {
@@ -17,4 +17,4 @@ export const CoursesList: FC<TCoursesList> = ({ courses }) => {
       })}
     </div>
   );
-};
+});

@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, memo } from "react";
 
 import { CardTag } from "../CardTag/CardTag";
 
@@ -10,7 +10,7 @@ type TCard = {
   bgColor: string;
 };
 
-export const Card: FC<TCard> = ({ name, image, bgColor }) => {
+export const Card: FC<TCard> = memo(({ name, image, bgColor }) => {
   return (
     <div className={classes.card}>
       <div className={classes.imageBg} style={{ backgroundColor: bgColor }}>
@@ -30,4 +30,4 @@ export const Card: FC<TCard> = ({ name, image, bgColor }) => {
       </div>
     </div>
   );
-};
+});
