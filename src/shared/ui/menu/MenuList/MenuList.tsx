@@ -1,4 +1,4 @@
-import { FC, useState } from "react";
+import { FC, useCallback, useState } from "react";
 
 import { MenuListItem } from "../MenuListItem/MenuListItem";
 
@@ -17,12 +17,15 @@ export const MenuList: FC<TMenuList> = ({
 }) => {
   const [activeMenuName, setActiveMenuName] = useState<string>(initialValue);
 
-  const handleMenuSelect = (name: string) => {
-    setActiveMenuName(name);
-    if (onSelect) {
-      onSelect(name);
-    }
-  };
+  const handleMenuSelect = useCallback(
+    (name: string) => {
+      setActiveMenuName(name);
+      if (onSelect) {
+        onSelect(name);
+      }
+    },
+    [onSelect],
+  );
 
   return (
     <div className={classes.menu}>

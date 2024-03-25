@@ -52,7 +52,7 @@ export const Courses: FC = () => {
           <Sidebar>
             <CoursesMenu
               initialValue={initialSortName}
-              onSelect={(name) => setSortName(name)}
+              onSelect={setSortName}
               courses={courses}
             />
           </Sidebar>

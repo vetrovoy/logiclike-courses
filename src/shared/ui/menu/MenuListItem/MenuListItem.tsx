@@ -1,4 +1,4 @@
-import { FC, MouseEvent } from "react";
+import { FC, memo } from "react";
 
 import classes from "./MenuListItem.module.scss";
 
@@ -8,22 +8,20 @@ type TMenuListItem = {
   name: string;
 };
 
-export const MenuListItem: FC<TMenuListItem> = ({
-  isSelected = false,
-  onSelect,
-  name,
-}) => {
-  const handleSelect = (e: MouseEvent<HTMLButtonElement>) => {
-    onSelect(name);
-  };
+export const MenuListItem: FC<TMenuListItem> = memo(
+  ({ isSelected = false, onSelect, name }) => {
+    const handleSelect = () => {
+      onSelect(name);
+    };
 
-  const menuItemClass = isSelected
-    ? `${classes.active} ${classes.button}`
-    : classes.button;
+    const menuItemClass = isSelected
+      ? `${classes.active} ${classes.button}`
+      : classes.button;
 
-  return (
-    <button onClick={handleSelect} className={menuItemClass}>
-      {name}
-    </button>
-  );
-};
+    return (
+      <button onClick={handleSelect} className={menuItemClass}>
+        {name}
+      </button>
+    );
+  },
+);
